@@ -17,6 +17,11 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 * Testing (Various Environments) - Increase production
 * And many other uses that will be available in the future...
 
+### Known Issues
+
+#### VirtualBox
+* VirtualBox need to be upgraded to latest version (4.2.10+ tested) for ERPXE 1.1.
+
 ### Links
 
 * [Official Project Website][ERPXE.COM]
