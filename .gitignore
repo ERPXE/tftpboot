@@ -1,5 +1,8 @@
 /lost+found/
 /ignore/
 /er/[0-9]*/
+/er/[a-z]*/
 /er/shares/
 /er/plugins/
+/win/
+ntdetect.com
