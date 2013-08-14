@@ -17,5 +17,11 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 * Testing (Various Environments) - Increase production
 * And many other uses that will be available in the future...
 
+### Links
+
+* www.erpxe.com - ERPXE Website
+* www.erpxe.net - ERPXE Community
+* www.erpxe.org - ERPXE WiKi
+
 [RaveMaker]: http://ravemaker.net
 [ET]: http://etcs.me
