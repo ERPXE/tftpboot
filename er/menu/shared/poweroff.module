@@ -1,4 +1,4 @@
 # Poweroff
 LABEL POWEROFF
 MENU LABEL ^Power Off
-KERNEL pxelinux.cfg/roms/poweroff.c32
+KERNEL syslinux/poweroff.c32

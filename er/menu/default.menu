@@ -1,4 +1,4 @@
-DEFAULT pxelinux.cfg/roms/vesamenu.c32
+DEFAULT syslinux/vesamenu.c32
 # ------------------------------------------------
 # default.menu
 MENU INCLUDE er/menu/shared/global.module
@@ -8,7 +8,7 @@ MENU LABEL ^ERPXE QuickLaunch
 
 LABEL ERPXEMenu
 MENU LABEL ^Enter ERPXE Menu
-KERNEL pxelinux.cfg/roms/vesamenu.c32
+KERNEL syslinux/vesamenu.c32
 APPEND er/menu/main-menu.menu
 TEXT HELP
      ERPXE Boot Menu.
