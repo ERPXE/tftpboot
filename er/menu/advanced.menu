@@ -30,3 +30,9 @@ MENU INCLUDE er/menu/shared/reboot.module
 text help
                 Reboot local system.
 endtext
+
+# ------====> Power Off <====------
+MENU INCLUDE er/menu/shared/poweroff.module
+text help
+                Shutdown local system.
+endtext

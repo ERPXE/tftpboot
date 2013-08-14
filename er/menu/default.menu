@@ -50,4 +50,10 @@ TEXT HELP
      Reboot local system.
 ENDTEXT
 
+# ------====> Power Off <====------
+MENU INCLUDE er/menu/shared/poweroff.module
+text help
+     Shutdown local system.
+endtext
+
 MENU HIDDEN

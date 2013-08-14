@@ -4,11 +4,11 @@ F3 HELP System for PXE-MENU!
 
 
 
-                    Version 1.06 build 1
+                    Version 1.1
                     Last compilation created by RaveMaker
                     
                     Current compilation date 
-                    16/03/2013 (Day/Month/Year)
+                    14/08/2013 (Day/Month/Year)
                     
-                    Based on syslinux ver: 4.05
+                    Based on syslinux ver: 6.01
                     Tested with TFTPD - OS - CentOS 5-6
