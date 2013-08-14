@@ -1,3 +1,4 @@
-/er/[0-9]*
+/ignore/
+/er/[0-9]*/
 /er/shares/
 /er/plugins/
