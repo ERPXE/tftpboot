@@ -1,0 +1,36 @@
+# ------------------------------------------------
+# cloing.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/menu.conf 
+MENU LABEL ^Cloning and Deployment Solutions
+# ------------------------------------------------
+
+# ------====> Back To Main Menu <====------
+include er/menu/shared/menu-top.module
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> FOG <====------
+MENU INCLUDE er/plugins/fog/fog.menu
+
+# ------====> Acronis <====------
+MENU INCLUDE er/plugins/acronistih/acronistih.menu
+
+# ------====> Symantec Ghost DOS <====------
+MENU INCLUDE er/plugins/ghostdos/ghostdos.menu
+
+# ------====> Separator <====------
+MENU INCLUDE er/menu/shared/separator.module    
+
+# ------====> Clonezilla <====------
+MENU INCLUDE er/plugins/clonezilla/clonezilla.menu
+
+# ------====> GParted <====------
+MENU INCLUDE er/plugins/gparted/gparted.menu
+
+# ------====> Parted Magic <====------
+MENU INCLUDE er/plugins/partedmagic/partedmagic.menu
+
+# ------====> PING (Partimage Is Not Ghost) <====------
+MENU INCLUDE er/plugins/ping/ping.menu

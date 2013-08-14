@@ -1,0 +1,3 @@
+LABEL Boot-Local
+MENU LABEL ^Boot From Local Drives
+LOCALBOOT 0

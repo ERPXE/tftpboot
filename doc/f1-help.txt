@@ -1,0 +1,17 @@
+F1 HELP System for PXE-MENU!
+
+
+
+
+
+                    Use the keyboard arrows for navigation
+					
+                    <Enter> Select Items.
+                    <ESC> Return to last menu.
+                    <TAB> Edit item.
+
+
+                    <09F107>   Help index (This page)
+                    <09F207>   About ERPXE
+                    <09F307>   Version Info
+                    <09F407>   Project Contributers

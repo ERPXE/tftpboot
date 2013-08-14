@@ -1,0 +1,162 @@
+# ------------------------------------------------
+# pelinux.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/menu.conf 
+MENU LABEL ^Linux Live Environments 
+# ------------------------------------------------
+
+# ------====> Back To Main Menu <====------
+include er/menu/shared/menu-top.module
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> AVLinux <====------
+MENU INCLUDE er/plugins/avlinux/avlinux.menu
+
+# ------====> ArtistX Live Linux <====------
+MENU INCLUDE er/plugins/artistx/artistx.menu
+
+# ------====> birgHPC Live Linux <====------
+MENU INCLUDE er/plugins/birghpc/birghpc.menu
+
+# ------====> birgHPCC Live Linux <====------
+MENU INCLUDE er/plugins/birghpcc/birghpcc.menu
+
+# ------====> Bodhi Live Linux <====------
+MENU INCLUDE er/plugins/bodhi/bodhi.menu
+
+# ------====> BootMed Live Linux <====------
+MENU INCLUDE er/plugins/bootmed/bootmed.menu
+
+# ------====> CAE Linux <====------
+MENU INCLUDE er/plugins/caelinux/caelinux.menu
+
+# ------====> CrunchBang Live Linux <====------
+MENU INCLUDE er/plugins/crunchbang/crunchbang.menu
+
+# ------====> Debian Live Linux <====------
+MENU INCLUDE er/plugins/debianlive/debianlive.menu
+
+# ------====> Deepin Live Linux <====------
+MENU INCLUDE er/plugins/deepin/deepin.menu
+
+# ------====> DSL Linux <====------
+MENU INCLUDE er/plugins/dsl/dsl.menu
+
+# ------====> Dynebolic <====------
+MENU INCLUDE er/plugins/dynebolic/dynebolic.menu
+
+# ------====> Finnix Linux <====------
+MENU INCLUDE er/plugins/finnix/finnix.menu
+
+# ------====> Gentoo Live <====------
+MENU INCLUDE er/plugins/gentoolive/gentoolive.menu
+
+# ------====> gNewSense Live <====------
+MENU INCLUDE er/plugins/gnewsense/gnewsense.menu
+
+# ------====> GRML <====------
+MENU INCLUDE er/plugins/grml/grml.menu
+
+# ------====> Joli OS <====------
+MENU INCLUDE er/plugins/jolios/jolios.menu
+
+# ------====> Kanotix <====------
+MENU INCLUDE er/plugins/kanotix/kanotix.menu
+
+# ------====> Knoppix <====------
+MENU INCLUDE er/plugins/knoppix/knoppix.menu
+
+# ------====> Linux Mint <====------
+MENU INCLUDE er/plugins/linuxmint/linuxmint.menu
+
+# ------====> Mythbuntu <====------
+MENU INCLUDE er/plugins/mythbuntu/mythbuntu.menu
+
+# ------====> NetRunner <====------
+MENU INCLUDE er/plugins/netrunner/netrunner.menu
+
+# ------====> OpenGEU <====------
+MENU INCLUDE er/plugins/opengeu/opengeu.menu
+
+# ------====> Paipix Live <====------
+MENU INCLUDE er/plugins/paipix/paipix.menu
+
+# ------====> Pear Live <====------
+MENU INCLUDE er/plugins/pearlive/pearlive.menu
+
+# ------====> PelicanHPC Live <====------
+MENU INCLUDE er/plugins/pelicanhpc/pelicanhpc.menu
+
+# ------====> Pinguy Live <====------
+MENU INCLUDE er/plugins/pinguy/pinguy.menu
+
+# ------====> PLOP Linux <====------
+MENU INCLUDE er/plugins/plop/plop.menu
+
+# ------====> Porteus Live Linux <====------
+MENU INCLUDE er/plugins/porteus/porteus.menu
+
+# ------====> Puppy Linux <====------
+MENU INCLUDE er/plugins/puppy/puppy.menu
+
+# ------====> Qimo for Kids <====------
+MENU INCLUDE er/plugins/qimo/qimo.menu
+
+# ------====> Quantian <====------
+MENU INCLUDE er/plugins/quantian/quantian.menu
+
+# ------====> Sabayon Loader <====------
+MENU INCLUDE er/plugins/sabayon/sabayon.menu
+
+# ------====> Salix Live Loader <====------
+MENU INCLUDE er/plugins/salixlive/salixlive.menu
+
+# ------====> Slax Linux <====------
+MENU INCLUDE er/plugins/slax/slax.menu
+
+# ------====> Slitaz Linux <====------
+MENU INCLUDE er/plugins/slitaz/slitaz.menu
+
+# ------====> Snow Linux <====------
+MENU INCLUDE er/plugins/snowlinux/snowlinux.menu
+
+# ------====> Super OS <====------
+MENU INCLUDE er/plugins/superos/superos.menu
+
+# ------====> Tails <====------
+MENU INCLUDE er/plugins/tails/tails.menu
+
+# ------====> ThinStation <====------
+MENU INCLUDE er/plugins/thinstation/thinstation.menu
+
+# ------====> Tina Knoppix <====------
+MENU INCLUDE er/plugins/tinaknoppix/tinaknoppix.menu
+
+# ------====> TinyCore Plus Linux <====------
+MENU INCLUDE er/plugins/tinycore/tinycore.menu
+
+# ------====> Trisquel Plus Linux <====------
+MENU INCLUDE er/plugins/trisquel/trisquel.menu
+
+# ------====> Ubuntu Live <====------
+MENU INCLUDE er/plugins/ubuntulive/ubuntulive.menu
+
+# ------====> Ubuntu Mini Remix <====------
+MENU INCLUDE er/plugins/ubuntumini/ubuntumini.menu
+
+# ------====> WebConverger <====------
+MENU INCLUDE er/plugins/webconverger/webconverger.menu
+
+# ------====> XBMC Live <====------
+MENU INCLUDE er/plugins/xbmclive/xbmclive.menu
+
+# ------====> xPUD Live <====------
+MENU INCLUDE er/plugins/xpud/xpud.menu
+
+# ------====> Ylmf OS <====------
+MENU INCLUDE er/plugins/ylmf/ylmf.menu
+
+# ------====> ZorinOS <====------
+MENU INCLUDE er/plugins/zorinos/zorinos.menu

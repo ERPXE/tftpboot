@@ -1,0 +1,17 @@
+F2 HELP System for PXE-MENU!
+
+
+
+
+
+                    ERPXE Menu Created by 
+					
+                    ET & RAVEMAKER in 2007-2013
+					
+					
+					
+					
+					
+					
+					
+                    Based on SYSLINUX

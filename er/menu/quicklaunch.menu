@@ -1,0 +1,15 @@
+# ------------------------------------------------
+# default.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/splash.conf
+MENU LABEL ERPXE ^QuickLaunch
+# ------------------------------------------------
+
+include er/menu/quicklaunch-custom.menu
+include er/plugins/memtest/memtest.menu
+include er/plugins/ntpasswd/ntpasswd.menu
+include er/plugins/pxelinux/dmipcicpu.menu
+include er/plugins/pxelinux/hdt.menu
+
+# ------====> Back <====------
+include er/menu/shared/menu-back.module

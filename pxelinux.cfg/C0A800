@@ -1,0 +1,10 @@
+# ------------------------------------------------
+#            |--==. ER Boot Menu .--==|
+# ------------------------------------------------
+
+UI pxelinux.cfg/roms/vesamenu.c32
+DEFAULT pxelinux.cfg/roms/vesamenu.c32
+MENU INCLUDE er/menu/default.menu
+
+# boot.txt Splash
+DISPLAY er/menu/skin/boot.txt

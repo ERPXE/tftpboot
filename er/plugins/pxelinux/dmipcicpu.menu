@@ -1,0 +1,20 @@
+LABEL DMI-TEST
+MENU LABEL ^DMI Test
+KERNEL pxelinux.cfg/roms/dmitest.c32
+TEXT HELP
+                 DMI Hardware Test.
+ENDTEXT
+
+LABEL PCI-TEST
+MENU LABEL ^PCI Test
+KERNEL pxelinux.cfg/roms/pcitest.c32
+TEXT HELP
+                 PCI Architecture hardware test.
+ENDTEXT
+
+LABEL CPUID-TEST
+MENU LABEL ^CPU-ID Test
+KERNEL pxelinux.cfg/roms/cpuidtest.c32
+TEXT HELP
+                 CPU hardware test.
+ENDTEXT

@@ -1,0 +1,4 @@
+# Reboot
+LABEL REBOOT
+MENU LABEL ^Reboot
+KERNEL pxelinux.cfg/roms/reboot.c32

@@ -1,0 +1,8 @@
+LABEL NTPASSWD
+MENU LABEL ^NTPASSWD - Edit Windows User Info
+KERNEL er/plugins/ntpasswd/vmlinuz
+INITRD er/plugins/ntpasswd/initrd.cgz,er/plugins/ntpasswd/scsi.cgz
+APPEND rw vga=1 init=/linuxrc
+TEXT HELP
+                 NT Password Recovery -  edit/blank passwords).
+ENDTEXT

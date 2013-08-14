@@ -1,0 +1,69 @@
+LABEL Boot MBR on first hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd0 0
+text help
+                 Boot from First Hard Drive.
+endtext
+
+LABEL Boot partition #1 on first hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd0 1
+text help
+                 Boot from 1st Partition on First Hard Drive.
+endtext
+
+LABEL Boot partition #2 on first hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd0 2
+text help
+                 Boot from 2nd Partition on First Hard Drive.
+endtext
+
+LABEL Boot partition #3 on first hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd0 3
+text help
+                 Boot from 3rd Partition on First Hard Drive.
+endtext
+
+LABEL Boot partition #4 on first hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd0 4
+text help
+                 Boot from 4th Partition on First Hard Drive.
+endtext
+
+LABEL Boot MBR on second hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd1 0
+text help
+                 Boot from Second Hard Drive.
+endtext
+
+LABEL Boot partition #1 on second hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd1 1
+text help
+                 Boot from 1st Partition on Second Hard Drive.
+endtext
+
+LABEL Boot partition #2 on second hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd1 2
+text help
+                 Boot from 2nd Partition on Second Hard Drive.
+endtext
+
+LABEL Boot partition #3 on second hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd1 3
+text help
+                 Boot from 3rd Partition on Second Hard Drive.
+endtext
+
+LABEL Boot partition #4 on second hard drive!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd1 4
+text help
+                 Boot from 4th Partition on Second Hard Drive.
+endtext

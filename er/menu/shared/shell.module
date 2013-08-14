@@ -1,0 +1,4 @@
+# Reboot
+LABEL QUITCOMMAND
+MENU LABEL ^Boot To Syslinux Command
+MENU QUIT

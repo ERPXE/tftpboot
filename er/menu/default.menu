@@ -1,0 +1,53 @@
+DEFAULT pxelinux.cfg/roms/vesamenu.c32
+# ------------------------------------------------
+# default.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/splash.conf
+MENU LABEL ^ERPXE QuickLaunch
+# ------------------------------------------------
+
+LABEL ERPXEMenu
+MENU LABEL ^Enter ERPXE Menu
+KERNEL pxelinux.cfg/roms/vesamenu.c32
+APPEND er/menu/main-menu.menu
+TEXT HELP
+     ERPXE Boot Menu.
+ENDTEXT
+
+MENU BEGIN QuickLaunch
+    MENU INCLUDE er/menu/quicklaunch.menu
+MENU END
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> Boot Local Option <====------
+MENU INCLUDE er/menu/shared/bootlocal.module
+MENU DEFAULT
+TEXT HELP
+     Boot from default local system.
+ENDTEXT
+
+MENU SEPARATOR
+
+# ------====> Boot Menu <====------
+MENU BEGIN ADVANCEDBOOTOPTIONS
+MENU TITLE Advanced Boot Options
+MENU LABEL ^Advanced Boot Options
+# ------====> Quit To Shell <====------
+MENU INCLUDE er/menu/shared/shell.module
+TEXT HELP
+     Quit to command prompt (syslinux command).
+ENDTEXT
+
+# ------====> Boot Local Options <====------
+MENU INCLUDE er/menu/bootintro.menu
+MENU END
+
+# ------====> Reboot <====------
+MENU INCLUDE er/menu/shared/reboot.module
+TEXT HELP
+     Reboot local system.
+ENDTEXT
+
+MENU HIDDEN

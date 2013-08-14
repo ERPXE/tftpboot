@@ -1,0 +1,33 @@
+# ------------------------------------------------
+# diag.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/menu.conf 
+MENU LABEL ^Hardware Diagnostics
+# ------------------------------------------------
+
+# ------====> Back To Main Menu <====------
+include er/menu/shared/menu-top.module
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> Hardware Tests <====------
+MENU INCLUDE er/plugins/pxelinux/dmipcicpu.menu
+
+# ------====> FreeDOS <====------
+MENU INCLUDE er/plugins/freedos/freedos.menu
+
+# ------====> Hardware Detection Tool <====------
+MENU INCLUDE er/plugins/pxelinux/hdt.menu
+
+# ------====> inquisitor Hardware Testing <====------
+MENU INCLUDE er/plugins/inquisitor/inquisitor.menu
+
+# ------====> Memtest <====------
+MENU INCLUDE er/plugins/memtest/memtest.menu
+
+# ------====> Stress Linux <====------
+MENU INCLUDE er/plugins/stress/stress.menu
+
+# ------====> Ubuntutrinux <====------
+MENU INCLUDE er/plugins/ubuntutrinux.menu

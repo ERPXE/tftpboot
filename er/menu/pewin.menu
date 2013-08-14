@@ -1,0 +1,51 @@
+# ------------------------------------------------
+# pewin.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/menu.conf 
+MENU LABEL ^Windows Pre-Installed Environments
+# ------------------------------------------------
+
+# ------====> Back To Main Menu <====------
+include er/menu/shared/menu-top.module
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> ActiveBootDisk <====------
+MENU INCLUDE er/plugins/activebootdisk/activebootdisk.menu
+
+# ------====> ERD Commander <====------
+MENU INCLUDE er/plugins/erd/erd.menu
+
+# ------====> Hiren's Mini XP <====------
+MENU INCLUDE er/plugins/hirensminixp/hirensminixp.menu
+
+# ------====> Paragon HD Suite Loader <====------
+MENU INCLUDE er/plugins/paragon/paragon.menu
+
+# ------====> ShadowProtect <====------
+MENU INCLUDE er/plugins/shadowprotect/shadowprotect.menu
+
+# ------====> Symantec Ghost Loader <====------
+MENU INCLUDE er/plugins/ghost/ghost.menu
+
+# ------====> Separator <====------
+MENU INCLUDE er/menu/shared/separator.module
+
+# ------====> Windows XPE Loader <====------
+MENU INCLUDE er/plugins/winna/winpe.menu
+
+# ------====> Windows XPE Loader <====------
+MENU INCLUDE er/plugins/winnb/winpe.menu
+
+# ------====> Windows XPE Loader <====------
+MENU INCLUDE er/plugins/winnc/winpe.menu
+
+# ------====> Windows PE WIM Loader #1 <====------
+MENU INCLUDE er/plugins/winpe3/wimpe1.menu
+
+# ------====> Windows PE WIM Loader #2 <====------
+MENU INCLUDE er/plugins/winpe3/wimpe2.menu
+
+# ------====> Windows PE WIM Loader #3 <====------
+MENU INCLUDE er/plugins/winpe3/wimpe3.menu

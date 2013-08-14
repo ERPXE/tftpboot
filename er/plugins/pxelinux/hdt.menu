@@ -1,0 +1,7 @@
+LABEL HARDWAREDETECTIONTOOL
+MENU LABEL ^Hardware Detection Tool
+KERNEL pxelinux.cfg/roms/hdt.c32
+TEXT HELP
+                 Hardware Detection Tool.
+                 Verify computer hardware parts.
+ENDTEXT

@@ -1,0 +1,57 @@
+# ------------------------------------------------
+# recovery.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/menu.conf 
+MENU LABEL ^Recovery Tools
+# ------------------------------------------------
+
+# ------====> Back To Main Menu <====------
+include er/menu/shared/menu-top.module
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> Recovery Console <====------
+MENU INCLUDE er/plugins/winrc/winrc.menu
+
+# ------====> Separator <====------
+MENU INCLUDE er/menu/shared/separator.module    
+
+# ------====> 4MLinux Recovery <====------
+MENU INCLUDE er/plugins/4mlinux/4mlinux.menu
+
+# ------====> Carroll - Net Server Recovery Kit <====------
+MENU INCLUDE er/plugins/cnsrk/cnsrk.menu
+
+# ------====> Hiren's Boot CD <====------
+MENU INCLUDE er/plugins/hirensbootcd/hirensbootcd.menu
+
+# ------====> NT Password Recovery <====------
+MENU INCLUDE er/plugins/ntpasswd/ntpasswd.menu
+
+# ------====> PLD Rescue CD <====------
+MENU INCLUDE er/plugins/pldrescue/pldrescue.menu
+
+# ------====> Puredyne Linux <====------
+MENU INCLUDE er/plugins/puredyne/puredyne.menu
+
+# ------====> PXE Knife <====------
+MENU INCLUDE er/plugins/pxeknife/pxeknife.menu
+
+# ------====> RedoBackup <====------
+MENU INCLUDE er/plugins/redobackup/redobackup.menu
+
+# ------====> RIP Linux <====------
+MENU INCLUDE er/plugins/rip/rip.menu
+
+# ------====> Seagate Recovery Manager <====------
+MENU INCLUDE er/plugins/seagate/seagate.menu
+
+# ------====> System Rescue CD <====------
+MENU INCLUDE er/plugins/sysrescue/sysrescue.menu
+
+# ------====> TRK <====------
+MENU INCLUDE er/plugins/trk/trk.menu
+
+# ------====> Ubuntu Rescue Remix <====------
+MENU INCLUDE er/plugins/ubunturescue/ubunturescue.menu

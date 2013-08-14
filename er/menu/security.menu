@@ -1,0 +1,66 @@
+# ------------------------------------------------
+# pelinux.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/menu.conf 
+MENU LABEL ^Security Diagnostics
+# ------------------------------------------------
+
+# ------====> Back To Main Menu <====------
+include er/menu/shared/menu-top.module
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> AVG Recovery CD <====------
+MENU INCLUDE er/plugins/avg/avg.menu
+
+# ------====> BackBox Linux <====------
+MENU INCLUDE er/plugins/backbox/backbox.menu
+
+# ------====> BackTrack Linux <====------
+MENU INCLUDE er/plugins/backtrack/backtrack.menu
+
+# ------====> Beini Linux <====------
+MENU INCLUDE er/plugins/beini/beini.menu
+
+# ------====> BlackBuntu Linux <====------
+MENU INCLUDE er/plugins/blackbuntu/blackbuntu.menu
+
+# ------====> Caine Linux <====------
+MENU INCLUDE er/plugins/caine/caine.menu
+
+# ------====> DEFT Linux <====------
+MENU INCLUDE er/plugins/deft/deft.menu
+
+# ------====> FCCU Linux <====------
+MENU INCLUDE er/plugins/fccu/fccu.menu
+
+# ------====> Helix Loader <====------
+MENU INCLUDE er/plugins/helix/helix.menu
+
+# ------====> Inside Security <====------
+MENU INCLUDE er/plugins/insert/insert.menu
+
+# ------====> Lightweight Portable Security <====------
+MENU INCLUDE er/plugins/lps/lps.menu
+
+# ------====> Matriux <====------
+MENU INCLUDE er/plugins/matriux/matriux.menu
+
+# ------====> OpenDiagnostics <====------
+MENU INCLUDE er/plugins/ods/ods.menu
+
+# ------====> ophcrack <====------
+MENU INCLUDE er/plugins/ophcrack/ophcrack.menu
+
+# ------====> Panda Recovery CD <====------
+MENU INCLUDE er/plugins/panda/panda.menu
+
+# ------====> Pentoo <====------
+MENU INCLUDE er/plugins/pentoo/pentoo.menu
+
+# ------====> Remnux <====------
+MENU INCLUDE er/plugins/remnux/remnux.menu
+
+# ------====> Samurai Linux <====------
+MENU INCLUDE er/plugins/samurai/samurai.menu

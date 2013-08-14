@@ -1,0 +1,27 @@
+LABEL MEMTEST86
+MENU LABEL ^Memtest86 v3.5
+KERNEL er/plugins/memtest/memtest
+TEXT HELP
+                 Memtest - Memory test for Single-CPU PCs.
+ENDTEXT
+ 
+LABEL MEMTEST86MC
+MENU LABEL ^Memtest86 v3.5 SMP (Multi-CPU)
+KERNEL er/plugins/memtest/memtest.smp
+TEXT HELP
+                 Memtest - Memory test for Multi-CPU PCs.
+ENDTEXT
+
+LABEL MEMTEST1652
+MENU LABEL ^Memtest86+2 v1.65
+KERNEL er/plugins/memtest/mt86plus2
+TEXT HELP
+                 Memtest Plus - Memory test for Single-CPU PCs.
+ENDTEXT
+
+LABEL MEMTEST1651
+MENU LABEL ^Memtest86+1 v1.65
+KERNEL er/plugins/memtest/mt86plus1
+TEXT HELP
+                 Memtest Plus - Memory test for Single-CPU PCs.
+ENDTEXT

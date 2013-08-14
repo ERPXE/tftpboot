@@ -1,0 +1,60 @@
+# ------------------------------------------------
+# bootintro.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/splash.conf 
+MENU LABEL ^Select Boot Device
+# ------------------------------------------------
+
+# ------====> Seperator <====------
+include er/menu/shared/separator.module
+
+LABEL MBRHD1
+MENU LABEL Boot MBR on 1st HD!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd0 0
+text help
+     Boot from First Hard Drive.
+endtext
+
+LABEL MBRHD1PT1
+MENU LABEL Boot partition #1 on 1st HD!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd0 1
+text help
+     Boot from 1st Partition on First Hard Drive.
+endtext
+
+LABEL MBRHD1PT2
+MENU LABEL Boot partition #2 on 1st HD!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd0 2
+text help
+     Boot from 2nd Partition on First Hard Drive.
+endtext
+
+LABEL MBRHD2
+MENU LABEL Boot MBR on 2nd HD!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd1 0
+text help
+     Boot from Second Hard Drive.
+endtext
+
+LABEL MBRHD2PT1
+MENU LABEL Boot partition #1 on 2nd HD!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd1 1
+text help
+     Boot from 1st Partition on Second Hard Drive.
+endtext
+
+LABEL MBRHD2PT2
+MENU LABEL Boot partition #2 on 2nd HD!
+KERNEL pxelinux.cfg/roms/chain.c32
+APPEND hd1 2
+text help
+     Boot from 2nd Partition on Second Hard Drive.
+endtext
+
+# ------====> Back <====------
+include er/menu/shared/menu-back.module

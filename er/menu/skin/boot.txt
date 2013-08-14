@@ -1,0 +1,30 @@
+Starting ERPXE...
+
+
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER
+ERERERERERERERERERERER  ______________________________  ERERERERERERERERERERER
+ERERERERERERERERERERER |                              | ERERERERERERERERERERER
+ERERERERERERERERERERER |       Welcome to ERPXE       | ERERERERERERERERERERER
+ERERERERERERERERERERER |     ET & RaveMaker P X E     | ERERERERERERERERERERER
+ ERER  ________________|                              |________________  ERER
+ ERER |                                                                | ERER
+ ERER |  /\\\\\\\\  /\\\\\\\      /\\\\\\\    /\\      /\\  /\\\\\\\\  | ERER
+ ERER |  /\\        /\\    /\\    /\\    /\\   /\\   /\\    /\\        | ERER
+ ERER |  /\\        /\\    /\\    /\\    /\\    /\\ /\\     /\\        | ERER
+ ERER |  /\\\\\\    /\ /\\        /\\\\\\\        /\\       /\\\\\\    | ERER
+ ERER |  /\\        /\\  /\\      /\\           /\\ /\\     /\\        | ERER
+ ERER |  /\\        /\\    /\\    /\\          /\\   /\\    /\\        | ERER
+ ERER |  /\\\\\\\\  /\\      /\\  /\\         /\\      /\\  /\\\\\\\\  | ERER
+ ERER |                                                                | ERER
+ ERER |                 Check our web site for updates                 | ERER
+ ERER |                                                                | ERER
+ ERER |                         WWW.ERPXE.COM                          | ERER
+ ERER |________________________________________________________________| ERER
+ ERER                                                                    ERER
+ERERERERERERERERERERERERER  ______________________  ERERERERERERERERERERERERER
+ERERERERERERERERERERERERER |                      | ERERERERERERERERERERERERER
+ERERERERERERERERERERERERER |  Press F1 for Help   | ERERERERERERERERERERERERER
+ERERERERERERERERERERERERER |______________________| ERERERERERERERERERERERERER
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER
+

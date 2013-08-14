@@ -1,0 +1,60 @@
+# ------------------------------------------------
+# osinst.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/menu.conf
+MENU LABEL ^Operating System Installations
+# ------------------------------------------------
+
+# ------====> Back To Main Menu <====------
+include er/menu/shared/menu-top.module
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> Windows <====------
+MENU INCLUDE er/plugins/mswin/mswin.menu
+
+# ------====> Separator <====------
+MENU INCLUDE er/menu/shared/separator.module
+
+# ------====> VMware Loader <====------
+MENU INCLUDE er/plugins/vmware/vmware.menu
+
+# ------====> Separator <====------
+MENU INCLUDE er/menu/shared/separator.module
+
+# ------====> Arch Linux <====------
+MENU INCLUDE er/plugins/archlinux/archlinux.menu
+
+# ------====> CentOS Loader <====------
+MENU INCLUDE er/plugins/centos/centos.menu
+
+# ------====> Debian Loader <====------
+MENU INCLUDE er/plugins/debian/debian.menu
+
+# ------====> Fedora Loader <====------
+MENU INCLUDE er/plugins/fedora/fedora.menu
+
+# ------====> FreeBSD Loader <====------
+MENU INCLUDE er/plugins/freebsd/freebsd.menu
+
+# ------====> Gentoo Loader <====------
+MENU INCLUDE er/plugins/gentoo/gentoo.menu
+
+# ------====> Mageia Loader <====------
+MENU INCLUDE er/plugins/mageia/mageia.menu
+
+# ------====> Mandriva Loader <====------
+MENU INCLUDE er/plugins/mandriva/mandriva.menu
+
+# ------====> OpenSUSE Loader <====------
+MENU INCLUDE er/plugins/opensuse/opensuse.menu
+
+# ------====> Scientific Linux Loader <====------
+MENU INCLUDE er/plugins/scilinux/scilinux.menu
+
+# ------====> Slackware Loader <====------
+MENU INCLUDE er/plugins/slackware/slackware.menu
+
+# ------====> Ubuntu Loader <====------
+MENU INCLUDE er/plugins/ubuntu/ubuntu.menu

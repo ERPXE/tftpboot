@@ -1,0 +1,13 @@
+MENU BEGIN MEMTEST
+MENU LABEL ^Memory Tests
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/memtest/memtest.png
+
+MENU INCLUDE er/plugins/memtest/memtestmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

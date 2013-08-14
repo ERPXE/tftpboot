@@ -1,0 +1,55 @@
+# ------------------------------------------------
+# main-menu.menu
+MENU INCLUDE er/menu/shared/global.module
+MENU INCLUDE er/menu/skin/menu.conf 
+MENU LABEL ^ERPXE Main Menu
+# ------------------------------------------------
+
+# ------====> OS Installations <====------
+MENU BEGIN OSINST
+    MENU INCLUDE er/menu/osinst.menu
+MENU END
+
+# ------====> Linux-PE Menu <====------
+MENU BEGIN PELIN
+    MENU INCLUDE er/menu/pelinux.menu
+MENU END
+
+# ------====> Windows-PE Menu <====------
+MENU BEGIN PEWIN
+    MENU INCLUDE er/menu/pewin.menu
+MENU END
+
+# ------====> Separator <====------
+MENU INCLUDE er/menu/shared/separator.module
+
+# ------====> Clone Menu <====------
+MENU BEGIN Cloning
+    MENU INCLUDE er/menu/cloning.menu
+MENU END
+
+# ------====> Diagnostics <====------
+MENU BEGIN DIAG
+    MENU INCLUDE er/menu/diag.menu
+MENU END
+
+# ------====> Recovery Menu <====------
+MENU BEGIN Recovery
+    MENU INCLUDE er/menu/recovery.menu
+MENU END
+
+# ------====> Security <====------
+MENU BEGIN DIAG
+    MENU INCLUDE er/menu/security.menu
+MENU END
+
+# ------====> Separator <====------
+MENU INCLUDE er/menu/shared/separator.module
+
+# ------====> Line <====------
+MENU INCLUDE er/menu/shared/line.module
+
+# ------====> Advanced Menu <====------
+MENU BEGIN Advanced
+    MENU INCLUDE er/menu/advanced.menu
+MENU END
