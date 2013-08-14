@@ -19,9 +19,24 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 
 ### Links
 
-* www.erpxe.com - ERPXE Website
-* www.erpxe.net - ERPXE Community
-* www.erpxe.org - ERPXE WiKi
+*[ERPXE.COM][Official Project Website]
+*[ERPXE.ORG][Official Project Wiki]
+*[ERPXE.NET][Official Project Community Forum]
+*[GITHUB][ERPXE @ Github]
+*[SF][ERPXE Project @ SourceForge]
+
+### Social Networking
+*[FACEBOOK][ERPXE @ Facebook]
+*[GOOGLEPLUS][ERPXE @ Google+]
+*[TWITTER][ERPXE @ Twitter]
 
 [RaveMaker]: http://ravemaker.net
 [ET]: http://etcs.me
+[ERPXE.COM]: http://erpxe.com/
+[ERPXE.ORG]: http://erpxe.org/
+[ERPXE.NET]: http://erpxe.net/
+[GITHUB]: https://github.com/ERPXE
+[SF]: https://sourceforge.net/projects/erpxe/
+[FACEBOOK]: http://www.facebook.com/erpxe
+[GOOGLEPLUS]: https://plus.google.com/110564784966828303213/about
+[TWITTER]: https://twitter.com/ERPXE
