@@ -19,7 +19,7 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 
 ### Links
 
-* [ERPXE.COM][Official Project Website]
+* [Official Project Website][ERPXE.COM]
 * [ERPXE.ORG][Official Project Wiki]
 * [ERPXE.NET][Official Project Community Forum]
 * [GITHUB][ERPXE @ Github]
