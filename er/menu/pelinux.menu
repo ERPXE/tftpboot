@@ -149,6 +149,9 @@ MENU INCLUDE er/plugins/ubuntumini/ubuntumini.menu
 # ------====> WebConverger <====------
 MENU INCLUDE er/plugins/webconverger/webconverger.menu
 
+# ------====> XBMCbuntu <====------
+MENU INCLUDE er/plugins/xbmcbuntu/xbmcbuntu.menu
+
 # ------====> XBMC Live <====------
 MENU INCLUDE er/plugins/xbmclive/xbmclive.menu
 
