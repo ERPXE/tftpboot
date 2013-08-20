@@ -28,9 +28,6 @@ Windows PE Based plugins takes a lot of time to load within a virtual environmen
 when using the gpxelinux.0 rom file.
 Thanx goes to w4rh0und for finding the solution.
 
-Change your DHCP rule from "gpxelinux.0" to "pxelinux.0" to solve this issue.
-
-
 ### Links
 
 * [Official Project Website][ERPXE.COM]
