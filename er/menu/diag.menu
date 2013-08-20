@@ -12,7 +12,7 @@ include er/menu/shared/menu-top.module
 MENU INCLUDE er/menu/shared/line.module
 
 # ------====> Hardware Tests <====------
-MENU INCLUDE er/plugins/pxelinux/dmipcicpu.menu
+MENU INCLUDE er/plugins/pxelinux/dmipcicp.menu
 
 # ------====> FreeDOS <====------
 MENU INCLUDE er/plugins/freedos/freedos.menu
