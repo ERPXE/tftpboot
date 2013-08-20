@@ -8,5 +8,4 @@
 # Ignore in package
 .gitattributes export-ignore
 .gitignore export-ignore
-md5gen.sh export-ignore
 package.sh export-ignore
