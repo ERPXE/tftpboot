@@ -23,6 +23,13 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 #### VirtualBox
 * VirtualBox need to be upgraded to latest version (4.2.10+ tested) for ERPXE 1.1.
 
+#### VMware issue with GPXE
+Windows PE Based plugins takes a lot of time to load within a virtual environment 
+when using the gpxelinux.0 rom file.
+
+Change your DHCP rule from "gpxelinux.0" to "pxelinux.0" to solve this issue.
+
+
 ### Links
 
 * [Official Project Website][ERPXE.COM]
