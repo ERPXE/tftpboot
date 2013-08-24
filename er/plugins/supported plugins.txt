@@ -114,6 +114,7 @@ winnb
 winnc
 winpe3
 winrc
+xbmcbuntu
 xbmclive
 xpud
 ylmf
