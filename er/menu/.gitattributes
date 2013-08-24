@@ -4,18 +4,8 @@
 
 # These files are text and should be normalized (Convert crlf => lf)
 *.gitattributes text
-*.sh text
-er.remap text
-README.md text
-LICENSE text
-CHANGELOG text
-
-# These files are binary and should be left untouched
-# (binary is a macro for -text -diff)
-*.0 binary
-undionly.kpxe binary
+*.menu text
+*.sample text
 
 # Ignore in package
 .gitattributes export-ignore
-.gitignore export-ignore
-package.sh export-ignore
