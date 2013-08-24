@@ -9,6 +9,6 @@ chmod 644 /tftpboot/ -R
 echo "Set folder permissions 755"
 find /tftpboot/ -type d -print | xargs chmod 755
 echo "Reset script permissions"
-chmod 755 /tftpboot/bin/fix-permissions.sh /tftpboot/bin/package.sh
+chmod 755 /tftpboot/bin/* -R
 echo ""
 echo "Done"
