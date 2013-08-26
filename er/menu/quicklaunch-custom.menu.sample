@@ -1,6 +1,6 @@
 # remove The .sample to use this file as your custom quicklaunce
-INCLUDE er/plugins/winpe1/1/winpe.menu
-INCLUDE er/plugins/winpe1/2/winpe.menu
+INCLUDE er/plugins/winpe1/1/winpe1.menu
+INCLUDE er/plugins/winpe1/2/winpe1.menu
 INCLUDE er/plugins/hirensminixp/hirensminixp.menu
 INCLUDE er/plugins/hirensbootcd/hirensbootcd.menu
 INCLUDE er/plugins/clonezilla/clonezilla.menu
