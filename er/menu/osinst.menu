@@ -1,12 +1,14 @@
 # ------------------------------------------------
 # osinst.menu
+MENU BEGIN OSINST
 MENU INCLUDE er/menu/shared/global.module
 MENU INCLUDE er/menu/skin/menu.conf
+MENU TITLE Operating System Installations
 MENU LABEL ^Operating System Installations
 # ------------------------------------------------
 
 # ------====> Back To Main Menu <====------
-include er/menu/shared/menu-top.module
+INCLUDE er/menu/shared/menu-top.module
 
 # ------====> Line <====------
 MENU INCLUDE er/menu/shared/line.module
@@ -52,3 +54,5 @@ MENU INCLUDE er/plugins/slackware/slackware.menu
 
 # ------====> Ubuntu Loader <====------
 MENU INCLUDE er/plugins/ubuntu/ubuntu.menu
+
+MENU END

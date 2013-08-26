@@ -1,15 +1,18 @@
 # ------------------------------------------------
 # quick-launch.menu
+MENU BEGIN QuickLaunch
 MENU INCLUDE er/menu/shared/global.module
 MENU INCLUDE er/menu/skin/splash.conf
 MENU LABEL ERPXE ^QuickLaunch
 # ------------------------------------------------
 
-include er/menu/quicklaunch-custom.menu
-include er/plugins/memtest/memtest.menu
-include er/plugins/ntpasswd/ntpasswd.menu
-include er/plugins/pxelinux/dmipcicpu.menu
-include er/plugins/pxelinux/hdt.menu
+INCLUDE er/menu/quicklaunch-custom.menu
+INCLUDE er/plugins/memtest/memtest.menu
+INCLUDE er/plugins/ntpasswd/ntpasswd.menu
+INCLUDE er/plugins/pxelinux/dmipcicpu.menu
+INCLUDE er/plugins/pxelinux/hdt.menu
 
 # ------====> Back <====------
-include er/menu/shared/menu-back.module
+INCLUDE er/menu/shared/menu-back.module
+
+MENU END

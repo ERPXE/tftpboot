@@ -1,3 +1,6 @@
 LABEL Boot-Local
 MENU LABEL ^Boot From Local Drives
 LOCALBOOT 0
+TEXT HELP
+     Boot from default local system.
+ENDTEXT

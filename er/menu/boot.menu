@@ -1,18 +1,22 @@
 # ------------------------------------------------
 # boot.menu
+MENU BEGIN Boot
 MENU INCLUDE er/menu/shared/global.module
 MENU INCLUDE er/menu/skin/menu.conf 
+MENU TITLE Select Boot Device
 MENU LABEL ^Select Boot Device
 # ------------------------------------------------
 
 # ------====> Back To Main Menu <====------
-include er/menu/shared/menu-top.module
+INCLUDE er/menu/shared/menu-top.module
 
 # ------====> Seperator <====------
-include er/menu/shared/separator.module
+INCLUDE er/menu/shared/separator.module
 
 # ------====> Boot Menu <====------
-include er/menu/shared/bootlocal-options.module
+INCLUDE er/menu/shared/bootlocal-options.module
 
 # ------====> Back <====------
-include er/menu/shared/menu-back.module
+INCLUDE er/menu/shared/menu-back.module
+
+MENU END

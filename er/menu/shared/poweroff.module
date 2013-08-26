@@ -2,3 +2,6 @@
 LABEL POWEROFF
 MENU LABEL ^Power Off
 KERNEL boot/isolinux/poweroff.c32
+TEXT HELP
+                Shutdown local system.
+ENDTEXT

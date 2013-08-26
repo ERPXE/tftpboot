@@ -1,38 +1,31 @@
 # ------------------------------------------------
 # boot.menu
+MENU BEGIN ADVANCED
 MENU INCLUDE er/menu/shared/global.module
 MENU INCLUDE er/menu/skin/menu.conf 
+MENU TITLE Advanced Options
 MENU LABEL ^Advanced Options
 # ------------------------------------------------
 
 # ------====> Back To Main Menu <====------
-include er/menu/shared/menu-top.module
+INCLUDE er/menu/shared/menu-top.module
 
 # ------====> Line <====------
 MENU INCLUDE er/menu/shared/line.module
 
 # ------====> Quit To Command <====------
 MENU INCLUDE er/menu/shared/shell.module
-text help
-                Quit to command prompt (syslinux command).
-endtext
 
 # ------====> Boot Local Option <====------
 MENU INCLUDE er/menu/shared/bootlocal.module
 
 # ------====> Boot Menu <====------
-MENU BEGIN Boot
-    MENU INCLUDE er/menu/boot.menu
-MENU END
+MENU INCLUDE er/menu/boot.menu
 
 # ------====> Reboot <====------
 MENU INCLUDE er/menu/shared/reboot.module
-text help
-                Reboot local system.
-endtext
 
 # ------====> Power Off <====------
 MENU INCLUDE er/menu/shared/poweroff.module
-text help
-                Shutdown local system.
-endtext
+
+MENU END

@@ -1,12 +1,14 @@
 # ------------------------------------------------
 # pelinux.menu
+MENU BEGIN PELIN
 MENU INCLUDE er/menu/shared/global.module
 MENU INCLUDE er/menu/skin/menu.conf
+MENU TITLE Linux Live Environments
 MENU LABEL ^Linux Live Environments
 # ------------------------------------------------
 
 # ------====> Back To Main Menu <====------
-include er/menu/shared/menu-top.module
+INCLUDE er/menu/shared/menu-top.module
 
 # ------====> Line <====------
 MENU INCLUDE er/menu/shared/line.module
@@ -163,3 +165,5 @@ MENU INCLUDE er/plugins/ylmf/ylmf.menu
 
 # ------====> ZorinOS <====------
 MENU INCLUDE er/plugins/zorinos/zorinos.menu
+
+MENU END

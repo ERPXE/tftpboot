@@ -1,60 +1,67 @@
 # ------------------------------------------------
 # bootintro.menu
+MENU BEGIN ADVANCEDBOOTOPTIONS
 MENU INCLUDE er/menu/shared/global.module
 MENU INCLUDE er/menu/skin/splash.conf 
+MENU TITLE Select Boot Device
 MENU LABEL ^Select Boot Device
 # ------------------------------------------------
 
+# ------====> Quit To Shell <====------
+MENU INCLUDE er/menu/shared/shell.module
+
 # ------====> Seperator <====------
-include er/menu/shared/separator.module
+INCLUDE er/menu/shared/separator.module
 
 LABEL MBRHD1
 MENU LABEL Boot MBR on 1st HD!
 KERNEL boot/isolinux/chain.c32
 APPEND hd0 0
-text help
+TEXT HELP
      Boot from First Hard Drive.
-endtext
+ENDTEXT
 
 LABEL MBRHD1PT1
 MENU LABEL Boot partition #1 on 1st HD!
 KERNEL boot/isolinux/chain.c32
 APPEND hd0 1
-text help
+TEXT HELP
      Boot from 1st Partition on First Hard Drive.
-endtext
+ENDTEXT
 
 LABEL MBRHD1PT2
 MENU LABEL Boot partition #2 on 1st HD!
 KERNEL boot/isolinux/chain.c32
 APPEND hd0 2
-text help
+TEXT HELP
      Boot from 2nd Partition on First Hard Drive.
-endtext
+ENDTEXT
 
 LABEL MBRHD2
 MENU LABEL Boot MBR on 2nd HD!
 KERNEL boot/isolinux/chain.c32
 APPEND hd1 0
-text help
+TEXT HELP
      Boot from Second Hard Drive.
-endtext
+ENDTEXT
 
 LABEL MBRHD2PT1
 MENU LABEL Boot partition #1 on 2nd HD!
 KERNEL boot/isolinux/chain.c32
 APPEND hd1 1
-text help
+TEXT HELP
      Boot from 1st Partition on Second Hard Drive.
-endtext
+ENDTEXT
 
 LABEL MBRHD2PT2
 MENU LABEL Boot partition #2 on 2nd HD!
 KERNEL boot/isolinux/chain.c32
 APPEND hd1 2
-text help
+TEXT HELP
      Boot from 2nd Partition on Second Hard Drive.
-endtext
+ENDTEXT
 
 # ------====> Back <====------
-include er/menu/shared/menu-back.module
+INCLUDE er/menu/shared/menu-back.module
+
+MENU END

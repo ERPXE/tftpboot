@@ -1,12 +1,14 @@
 # ------------------------------------------------
 # pewin.menu
+MENU BEGIN PEWIN
 MENU INCLUDE er/menu/shared/global.module
 MENU INCLUDE er/menu/skin/menu.conf 
+MENU TITLE Windows Pre-Installed Environments
 MENU LABEL ^Windows Pre-Installed Environments
 # ------------------------------------------------
 
 # ------====> Back To Main Menu <====------
-include er/menu/shared/menu-top.module
+INCLUDE er/menu/shared/menu-top.module
 
 # ------====> Line <====------
 MENU INCLUDE er/menu/shared/line.module
@@ -49,3 +51,5 @@ MENU INCLUDE er/plugins/winpe3/2/winpe3.menu
 
 # ------====> Windows PE WIM Loader #3 <====------
 MENU INCLUDE er/plugins/winpe3/3/winpe3.menu
+
+MENU END
