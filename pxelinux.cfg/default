@@ -2,8 +2,8 @@
 #            |--==. ER Boot Menu .--==|
 # ------------------------------------------------
 
-UI syslinux/vesamenu.c32
-DEFAULT syslinux/vesamenu.c32
+UI boot/isolinux/vesamenu.c32
+DEFAULT boot/isolinux/vesamenu.c32
 MENU INCLUDE er/menu/default.menu
 
 # boot.txt Splash
