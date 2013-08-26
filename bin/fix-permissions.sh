@@ -9,7 +9,7 @@ function resetPermissions() {
     echo "Set folder permissions 755"
     find /tftpboot/ -type d -print | xargs chmod 755
     echo "Reset script permissions"
-    chmod 744 /tftpboot/bin/fix-permissions.sh /tftpboot/package.sh
+    chmod 744 /tftpboot/bin/ -R
 }
 
 path="/tftpboot/";
