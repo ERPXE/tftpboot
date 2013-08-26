@@ -1,4 +1,0 @@
-Before any new release, packager must take care of:
-
-- Update CHANGELOG with version and changes.
-- Update doc/f3-version.txt with version.

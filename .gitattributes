@@ -9,7 +9,7 @@
 README.md text
 LICENSE text
 CHANGELOG text
-BEFORE_PACKAGING text
+PREPACK text
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
@@ -21,4 +21,4 @@ undionly.kpxe binary
 .gitattributes export-ignore
 .gitignore export-ignore
 package.sh export-ignore
-BEFORE_PACKAGING export-ignore
+PREPACK export-ignore
