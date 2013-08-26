@@ -13,6 +13,7 @@ CHANGELOG text
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
 *.0 binary
+*.c32 binary
 undionly.kpxe binary
 
 # Ignore in package
