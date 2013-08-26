@@ -1,5 +1,7 @@
 MENU BEGIN MEMTEST
+MENU TITLE Memory Tests
 MENU LABEL ^Memory Tests
+
 # ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/memtest/memtest.png
 
