@@ -20,6 +20,11 @@ filename=$(printf '%02X' ${IP_ADDR//./ })
 # Convert to lowercase
 lowerfilename=${filename,,}
 
-# TODO: CHECK IF FILE EXIST
+# Check If File Exist
 cd $TFTPFOLDER/
-ln -s $TFTPFOLDER/default $TFTPFOLDER/$lowerfilename
+if [ -f $lowerfilename ];
+then
+   echo "File $lowerfilename already exists."
+else
+   ln -s $TFTPFOLDER/default $TFTPFOLDER/$lowerfilename
+fi
