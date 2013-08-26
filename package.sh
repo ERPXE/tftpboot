@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE="BEFORE_PACKAGING"
+FILE="PREPACK"
 cat $FILE
 echo
 
