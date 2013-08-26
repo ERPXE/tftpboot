@@ -6,9 +6,18 @@ This version include mostly performance improvments.
 * 3 links created at root (syslinux tries there first)
 * syslinux.cfg - created several files which loads before default in most subnets.
 
+v1.1.1
+======
+* ip2hex.sh script created
+* remap.er updated
+* resetPermission.sh script added
+* Added /bin folder
+* NTPASSWD updated to 110511
+* Menu Begin Moved into .menu file
+*  -> Roms moved to new 'boot/isolinux' folder (pxelinux.0/roms is now depreceated)
+
 v1.1
 ====
-
 * Memtest Updated to 4.2
 * Memtest86 Updated to 4.3.1
 * Syslinux updated (6.02-pre16) - Memtest issue finally fixed (since SYSLINUX 5.x+)
