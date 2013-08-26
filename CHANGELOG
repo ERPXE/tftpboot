@@ -5,16 +5,12 @@ This version include mostly performance improvments.
 * /syslinux folder (syslinux roms) moved to /boot/isolinux (syslinux tries there first)
 * 3 links created at root (syslinux tries there first)
 * syslinux.cfg - created several files which loads before default in most subnets.
-
-v1.1.1
-======
 * ip2hex.sh script created
 * remap.er updated
 * resetPermission.sh script added
 * Added /bin folder
 * NTPASSWD updated to 110511
 * Menu Begin Moved into .menu file
-*  -> Roms moved to new 'boot/isolinux' folder (pxelinux.0/roms is now depreceated)
 
 v1.1
 ====
