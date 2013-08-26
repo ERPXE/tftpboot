@@ -11,7 +11,7 @@ service tftp
 	wait			= yes
 	user			= root
 	server			= /usr/sbin/in.tftpd
-	server_args		= -m /erpxe/tftp/er.remap -vvvvv -s /erpxe/tftp
+	server_args		= -m /tftpboot/erpxe.remap -vvvvv -s /tftpboot/
 	per_source		= 11
 	cps			= 100 2
 	flags			= IPv4

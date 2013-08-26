@@ -6,7 +6,7 @@ This version include mostly performance improvments.
 * 3 links created at root (syslinux tries there first)
 * syslinux.cfg - created several files which loads before default in most subnets.
 * ip2hex.sh script created
-* remap.er updated
+* er.remap updated
 * resetPermission.sh script added
 * Added /bin folder
 * NTPASSWD updated to 110511
