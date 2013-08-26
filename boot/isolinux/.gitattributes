@@ -1,0 +1,6 @@
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.c32 binary
+
+# Ignore in package
+.gitattributes export-ignore
