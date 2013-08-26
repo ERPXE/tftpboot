@@ -12,7 +12,7 @@ include er/menu/shared/menu-top.module
 MENU INCLUDE er/menu/shared/line.module
 
 # ------====> Hardware Tests <====------
-MENU INCLUDE er/plugins/pxelinux/dmipcicp.menu
+MENU INCLUDE er/plugins/pxelinux/dmipcicpu.menu
 
 # ------====> FreeDOS <====------
 MENU INCLUDE er/plugins/freedos/freedos.menu
@@ -30,4 +30,4 @@ MENU INCLUDE er/plugins/memtest/memtest.menu
 MENU INCLUDE er/plugins/stress/stress.menu
 
 # ------====> Ubuntutrinux <====------
-MENU INCLUDE er/plugins/ubuntutrinux.menu
+MENU INCLUDE er/plugins/ubuntutrinux/ubuntutrinux.menu

@@ -11,12 +11,6 @@ include er/menu/shared/menu-top.module
 # ------====> Line <====------
 MENU INCLUDE er/menu/shared/line.module
 
-# ------====> Windows <====------
-MENU INCLUDE er/plugins/mswin/mswin.menu
-
-# ------====> Separator <====------
-MENU INCLUDE er/menu/shared/separator.module
-
 # ------====> VMware Loader <====------
 MENU INCLUDE er/plugins/vmware/vmware.menu
 
