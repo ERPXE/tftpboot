@@ -1,0 +1,10 @@
+# ------------------------------------------------
+#            |--==. ER Boot Menu .--==|
+# ------------------------------------------------
+
+UI syslinux/vesamenu.c32
+DEFAULT syslinux/vesamenu.c32
+MENU INCLUDE er/menu/default.menu
+
+# boot.txt Splash
+DISPLAY er/menu/skin/boot.txt
