@@ -1,4 +1,5 @@
-e ^pxelinux.cfg/			# exclude pxelinux.cfg folder
-e ^boot/					# exclude boot folder
-gr \\ /                     # Convert backslashes to slashes
-gr ([A-Z]) \L\1             # Convert all to lowercase
+e ^pxelinux.cfg/		# exclude pxelinux.cfg folder
+e ^boot/			# exclude boot folder
+e ^KIWI/			# exclude KIWI folder
+gr \\ /				# Convert backslashes to slashes
+gr ([A-Z]) \L\1			# Convert all to lowercase
