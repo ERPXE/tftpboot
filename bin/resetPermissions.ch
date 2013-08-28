@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # Fix permissions on entire /tftpboot/ folder.
 
