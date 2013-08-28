@@ -17,14 +17,11 @@ read IP_ADDR
 # Convert values to Hex
 filename=$(printf '%02X' ${IP_ADDR//./ })
 
-# Convert to lowercase
-lowerfilename=${filename,,}
-
 # Check If File Exist
 cd $TFTPFOLDER/
-if [ -f $lowerfilename ];
+if [ -f $filename ];
 then
-   echo "File $lowerfilename already exists."
+   echo "File $filename already exists."
 else
-   ln -s $TFTPFOLDER/default $TFTPFOLDER/$lowerfilename
+   ln -s $TFTPFOLDER/default $TFTPFOLDER/$filename
 fi
