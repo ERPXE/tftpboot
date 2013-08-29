@@ -44,7 +44,7 @@ then
     then
 	IPAddress="10.0.0.1"
     fi
-    # Replace Server IP iin dhcpd.conf
+    # Replace Server IP in dhcpd.conf
     sed -e "s/10.0.0.1/$IPAddress/g" setup/erpxe-dhcpd.conf > /etc/dhcp/dhcpd.conf
     # Start dhcpd service and run on startup
     chkconfig dhcpd on
