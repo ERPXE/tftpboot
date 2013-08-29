@@ -1,0 +1,11 @@
+
+
+ERPXE Configuration script
+==========================
+
+v0.1
+This is the initial release for CentOS 6 only.
+The script assumes a clean installation and WILL overwrite your current configuration
+CONTINUE WITH EXTREME CAUTION
+
+
