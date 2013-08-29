@@ -6,6 +6,13 @@ clear
 # Prompt notification:
 cat setup/notice.txt
 
+# Ask to continue after notice
+echo "Do you want to continue ERPXE DHCP server configuration ? [y/N]"
+read AGREE
+if [ "$AGREE" != "y" ] || [ "$AGREE" != "Y" ]
+then
+    exit
+fi
 
 # ask if to enable DHCP service
 echo "Do you want to use ERPXE DHCP server ? [y/N]"
