@@ -1,6 +1,5 @@
 ERPXE
 =====
-by [RaveMaker][RaveMaker] & [ET][ET].
 
 ERPXE is a complete PXE solution featuring a broad range of recovery tools and various OS installations in one box.
 The idea of ERPXE came out of the need for a simple PXE solution that would be easy to implement in a short amount of time and money.
@@ -35,6 +34,8 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 * [ERPXE @ Google+][GOOGLEPLUS]
 * [ERPXE @ Twitter][TWITTER]
 
+
+by [RaveMaker][RaveMaker] & [ET][ET].
 [RaveMaker]: http://ravemaker.net
 [ET]: http://etcs.me
 [ERPXE.COM]: http://erpxe.com/
