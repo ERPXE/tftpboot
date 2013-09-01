@@ -5,7 +5,7 @@
 # These files are text and should be normalized (Convert crlf => lf)
 *.gitattributes text
 *.sh text
-erpxe.remap text
+*.remap text
 README.md text
 LICENSE text
 CHANGELOG text
