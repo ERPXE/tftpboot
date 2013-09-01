@@ -14,6 +14,7 @@ function resetPermissions() {
     find $FOLDER/ -type d -print | xargs chmod 755
     echo "Reset script permissions"
     chmod 744 $FOLDER/bin/ -R
+    chmod +x $FOLDER/*.sh
 }
 
 path="/tftpboot/";
