@@ -1,15 +1,19 @@
 #! /bin/bash
 
+# Fix permissions on entire /tftpboot/ folder.
+
+FOLDER=/tftpboot
+
 function resetPermissions() {
     echo "Fix files and folders ownership and permissions"
     echo "Set ownership to user root and group root"
-    chown root:root /tftpboot/ -R
+    chown root:root $FOLDER/ -R
     echo "Set files permissions 644"
-    chmod 644 /tftpboot/ -R
+    chmod 644 $FOLDER/ -R
     echo "Set folder permissions 755"
-    find /tftpboot/ -type d -print | xargs chmod 755
+    find $FOLDER/ -type d -print | xargs chmod 755
     echo "Reset script permissions"
-    chmod 744 /tftpboot/bin/ -R
+    chmod 744 $FOLDER/bin/ -R
 }
 
 path="/tftpboot/";
