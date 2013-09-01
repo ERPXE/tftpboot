@@ -5,10 +5,10 @@ This version include mostly performance improvments.
 * /syslinux folder (syslinux roms) moved to /boot/isolinux (syslinux tries there first)
 * 3 links created at root (syslinux tries there first)
 * syslinux.cfg - created several files which loads before default in most subnets.
-* ip2hex.sh script created
-* remap.er updated
-* resetPermission.sh script added
-* Added /bin folder
+* remap.er updated - minor change.
+* Added /bin folder - for scripts:
+    - ip2hex.sh script created - for generating links in /syslinux.cfg/ for ip/subnet(s)
+    - resetPermission.sh script added - for resetting permission on entire /tftpboot/ folder by default
 * NTPASSWD updated to 110511
 * Menu Begin Moved into .menu file
 
