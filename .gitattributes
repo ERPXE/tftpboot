@@ -20,3 +20,4 @@ undionly.kpxe binary
 .gitattributes export-ignore
 .gitignore export-ignore
 package.sh export-ignore
+BEFORE_PACKAGING.sh export-ignore
