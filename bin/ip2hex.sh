@@ -13,8 +13,13 @@ TFTPFOLDER = /tftpboot/pxelinux.cfg # TFTP Folder
 
 echo "Please input SUBNET or IP, for example 10.0.0"
 read IP_ADDR
+
+# Convert values to Hex
 filename=$(printf '%02X' ${IP_ADDR//./ })
-cd $TFTPFOLDER/
+
+# Convert to lowercase
 lowerfilename=${filename,,}
+
 # TODO: CHECK IF FILE EXIST
+cd $TFTPFOLDER/
 ln -s $TFTPFOLDER/default $TFTPFOLDER/$lowerfilename
