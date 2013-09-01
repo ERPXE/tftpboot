@@ -9,6 +9,7 @@ er.remap text
 README.md text
 LICENSE text
 CHANGELOG text
+BEFORE_PACKAGING text
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
