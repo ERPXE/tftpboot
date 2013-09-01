@@ -4,7 +4,7 @@ F3 HELP System for PXE-MENU!
 
 
 
-                    Version 1.11
+                    Version 1.1.1
                     Last compilation created by RaveMaker
 
                     Current compilation date 
