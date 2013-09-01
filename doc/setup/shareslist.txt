@@ -72,5 +72,6 @@ vyatta
 webconverger
 windows
 xbmclive
+xbmcbuntu
 ylmf
 zorinos

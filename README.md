@@ -5,7 +5,8 @@ ERPXE is a complete PXE solution featuring a broad range of recovery tools and v
 The idea of ERPXE came out of the need for a simple PXE solution that would be easy to implement in a short amount of time and money.
 Founded in 2007 for internal use, ERPXE was developed in the field creating simple solutions for growth in Information Technology.
 
-Vision
+### Vision
+
 In our vision, we see ERPXE in every small-large scale Enterprise used for:
 
 * Deployment - fast and easy
@@ -20,6 +21,11 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 
 #### VirtualBox
 * VirtualBox need to be upgraded to latest version (4.2.10+ tested) for ERPXE 1.1.
+
+#### VMware issue with GPXE
+Windows PE Based plugins takes a lot of time to load within a virtual environment 
+when using the gpxelinux.0 rom file.
+Thanx goes to w4rh0und for finding the solution.
 
 ### Links
 

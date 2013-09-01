@@ -33,19 +33,19 @@ MENU INCLUDE er/plugins/ghost/ghost.menu
 MENU INCLUDE er/menu/shared/separator.module
 
 # ------====> Windows XPE Loader <====------
-MENU INCLUDE er/plugins/winna/winna.menu
+MENU INCLUDE er/plugins/winpe1/1/winpe1.menu
 
 # ------====> Windows XPE Loader <====------
-MENU INCLUDE er/plugins/winnb/winnb.menu
+MENU INCLUDE er/plugins/winpe1/2/winpe1.menu
 
 # ------====> Windows XPE Loader <====------
-MENU INCLUDE er/plugins/winnc/winnc.menu
+MENU INCLUDE er/plugins/winpe1/3/winpe1.menu
 
 # ------====> Windows PE WIM Loader #1 <====------
-MENU INCLUDE er/plugins/winpe3/wimpe1.menu
+MENU INCLUDE er/plugins/winpe3/1/winpe3.menu
 
 # ------====> Windows PE WIM Loader #2 <====------
-MENU INCLUDE er/plugins/winpe3/wimpe2.menu
+MENU INCLUDE er/plugins/winpe3/2/winpe3.menu
 
 # ------====> Windows PE WIM Loader #3 <====------
-MENU INCLUDE er/plugins/winpe3/wimpe3.menu
+MENU INCLUDE er/plugins/winpe3/3/winpe3.menu

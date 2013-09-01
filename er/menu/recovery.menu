@@ -15,7 +15,7 @@ MENU INCLUDE er/menu/shared/line.module
 MENU INCLUDE er/plugins/winrc/winrc.menu
 
 # ------====> Separator <====------
-MENU INCLUDE er/menu/shared/separator.module    
+MENU INCLUDE er/menu/shared/separator.module
 
 # ------====> 4MLinux Recovery <====------
 MENU INCLUDE er/plugins/4mlinux/4mlinux.menu

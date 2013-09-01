@@ -21,7 +21,7 @@ MENU INCLUDE er/plugins/acronistih/acronistih.menu
 MENU INCLUDE er/plugins/ghostdos/ghostdos.menu
 
 # ------====> Separator <====------
-MENU INCLUDE er/menu/shared/separator.module    
+MENU INCLUDE er/menu/shared/separator.module
 
 # ------====> Clonezilla <====------
 MENU INCLUDE er/plugins/clonezilla/clonezilla.menu

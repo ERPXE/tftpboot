@@ -1,7 +1,7 @@
 # ------------------------------------------------
-# pelinux.menu
+# security.menu
 MENU INCLUDE er/menu/shared/global.module
-MENU INCLUDE er/menu/skin/menu.conf 
+MENU INCLUDE er/menu/skin/menu.conf
 MENU LABEL ^Security Diagnostics
 # ------------------------------------------------
 
@@ -28,6 +28,9 @@ MENU INCLUDE er/plugins/blackbuntu/blackbuntu.menu
 
 # ------====> Caine Linux <====------
 MENU INCLUDE er/plugins/caine/caine.menu
+
+# ------====> DBAN - Darik's Boot and Nuke <====------
+MENU INCLUDE er/plugins/dban/dban.menu
 
 # ------====> DEFT Linux <====------
 MENU INCLUDE er/plugins/deft/deft.menu
