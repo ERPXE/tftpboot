@@ -8,8 +8,8 @@
 # c0a800 (192.168.0.*) / 0a0000 (10.0.0.*) supplied by ERPXE as default
 # links supplied by default for 192.168.*.* / 192.*.*.* and 10.0.*.* / 10.*.*.* also.
 
-# Settings
-TFTPFOLDER = /tftpboot/pxelinux.cfg # TFTP Folder
+# TFTP Folder
+TFTPFOLDER=/tftpboot/pxelinux.cfg
 
 echo "Please input SUBNET or IP, for example 10.0.0"
 read IP_ADDR
