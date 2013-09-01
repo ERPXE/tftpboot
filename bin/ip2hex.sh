@@ -9,12 +9,12 @@
 # links supplied by default for 192.168.*.* / 192.*.*.* and 10.0.*.* / 10.*.*.* also.
 
 # Settings
-TFTPFOLDER = /tftpboot/pxelinux.cfg/ # TFTP Folder
+TFTPFOLDER = /tftpboot/pxelinux.cfg # TFTP Folder
 
 echo "Please input SUBNET or IP, for example 10.0.0"
 read IP_ADDR
 filename=$(printf '%02X' ${IP_ADDR//./ })
-cd $TFTPFOLDER
+cd $TFTPFOLDER/
 lowerfilename=${filename,,}
 # TODO: CHECK IF FILE EXIST
-ln -s /tftpboot/pxelinux.cfg/default /tftpboot/pxelinux.cfg/$lowerfilename
+ln -s $TFTPFOLDER/default $TFTPFOLDER/$lowerfilename
