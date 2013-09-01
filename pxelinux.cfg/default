@@ -4,8 +4,9 @@
 UI boot/isolinux/vesamenu.c32
 DEFAULT boot/isolinux/vesamenu.c32
 
+# boot.txt Splash
+DISPLAY er/menu/skin/boot.txt
+
 # Load Quicklaunch
 MENU INCLUDE er/menu/default.menu
 
-# boot.txt Splash
-DISPLAY er/menu/skin/boot.txt
