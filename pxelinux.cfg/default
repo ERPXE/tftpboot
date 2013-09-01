@@ -1,9 +1,10 @@
-# ------------------------------------------------
-#            |--==. ER Boot Menu .--==|
-# ------------------------------------------------
+# ERPXE Boot... Everything starts here...
 
+# Load vesamenu.c32
 UI boot/isolinux/vesamenu.c32
 DEFAULT boot/isolinux/vesamenu.c32
+
+# Load Quicklaunch
 MENU INCLUDE er/menu/default.menu
 
 # boot.txt Splash
