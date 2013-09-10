@@ -4,6 +4,18 @@
 
 cd ..
 
+# delete (--clear) parameter
+if [ "$1" == "--clear" ]; then
+    rm  -f ldlinux.c32 libcom32.c32 libutil.c32
+    cd pxelinux.cfg
+    rm -f 0A 0A0 0A00 0A000 0A0000 
+    rm -f C0 C0A C0A8 C0A80 C0A800
+    echo "Symlinks deleted.";
+    exit
+fi
+
+
+
 function ln_boot() {
     ln -s boot/isolinux/$1 ./$1
 }
