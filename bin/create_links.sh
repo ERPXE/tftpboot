@@ -31,3 +31,5 @@ ln_pxe C0A
 ln_pxe C0A8
 ln_pxe C0A80
 ln_pxe C0A800
+
+echo Done.
