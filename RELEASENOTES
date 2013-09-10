@@ -7,3 +7,5 @@ Release notes
 3. syslinux/roms moved to boot/isolinux.
    memdisk left for backward compatibility with some plugins.
    will be removed in the next release.
+   
+for more details read the CHANGELOG
