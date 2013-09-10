@@ -6,7 +6,9 @@ This version contains an improvement to performance and shorter boot time.
 * /syslinux folder (syslinux roms) moved to /boot/isolinux (syslinux tries there first)
 * 3 links created at root (syslinux tries there first)
 * syslinux.cfg - created several files which loads before default in most subnets.
-* er.remap updated - minor change and changed to erpxe.remap. er.remap left as link and will be depreceated soon.
+* er.remap updated: 
+    - added folder exlusions - to speed process, and disable remap where not needed
+    - renamed to erpxe.remap (er.remap left as link and will be depreceated soon).
 * Added /bin folder - for scripts:
     - ip2hex.sh script created - for generating links in /syslinux.cfg/ for ip/subnet(s)
     - resetPermission.sh script added - for resetting permission on entire /tftpboot/ folder by default
