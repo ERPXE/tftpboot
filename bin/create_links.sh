@@ -2,6 +2,8 @@
 
 # This script will create symlinks to fasten PXE load.
 
+cd ..
+
 function ln_boot() {
     ln -s boot/isolinux/$1 ./$1
 }
