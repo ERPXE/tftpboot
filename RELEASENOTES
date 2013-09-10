@@ -1,0 +1,9 @@
+Release notes
+=============
+
+1. er.remap renamed to repxe.remap. 
+   service should be updated according to your system.
+   backward compatibility sylinks left for one release.
+3. syslinux/roms moved to boot/isolinux.
+   memdisk left for backward compatibility with some plugins.
+   will be removed in the next release.
