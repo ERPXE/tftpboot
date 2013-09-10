@@ -12,12 +12,14 @@ function ln_pxe() {
     ln -s default ./$1
 }
 
-# create root links to .c32 files.
+# create root links to .c32 files. 
+# syslinux will find them here sooner
 ln_boot ldlinux.c32
 ln_boot libcom32.c32
 ln_boot libutil.c32
 
-# create common subnets loaders in pxelinux.cfg
+# create common subnets loaders in pxelinux.cfg. 
+# syslinux will find them here sooner
 cd pxelinux.cfg
 ln_pxe 0A
 ln_pxe 0A0
