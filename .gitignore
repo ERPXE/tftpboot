@@ -18,3 +18,6 @@ ntdetect.com
 erpxe-nightly.tar.gz
 
 # symlinks
+ldlinux.c32
+libcom32.c32
+libutil.c32
