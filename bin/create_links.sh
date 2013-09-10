@@ -17,10 +17,12 @@ fi
 
 
 function ln_boot() {
+    echo creating symlink to boot/isolinux/$1 in tftpboot root
     ln -s boot/isolinux/$1 ./$1
 }
 
 function ln_pxe() {
+    echo creating symlink from pxelinux.cfg/default to $1
     ln -s default ./$1
 }
 
