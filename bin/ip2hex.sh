@@ -8,6 +8,9 @@
 # c0a800 (192.168.0.*) / 0a0000 (10.0.0.*) supplied by ERPXE as default
 # links supplied by default for 192.168.*.* / 192.*.*.* and 10.0.*.* / 10.*.*.* also.
 
+# TODO
+# 1. Check for valid input.
+
 # TFTP Folder
 TFTPFOLDER=/tftpboot/pxelinux.cfg
 
@@ -23,5 +26,12 @@ if [ -f $filename ];
 then
    echo "File $filename already exists."
 else
-   ln -s $TFTPFOLDER/default $TFTPFOLDER/$filename
+    while true; do
+        read -p "File $filename will be created. are you sure?" yn
+        case $yn in
+            [Yy]* ) ln -s $TFTPFOLDER/default $TFTPFOLDER/$filename; break;;
+            [Nn]* ) echo "User aborted."; exit;;
+            * ) echo "Please answer yes or no.";;
+        esac
+    done 
 fi
