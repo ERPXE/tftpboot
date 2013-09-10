@@ -1,12 +1,20 @@
 /lost+found/
+
+# private settings
+/er/menu/quicklaunch-custom.menu
 /ignore/
+
+# plugins files
 /er/[0-9]*/
 /er/[a-z]*/
 /er/shares/
 /er/plugins/
 /win/
 ntdetect.com
-erpxe-nightly.tar.gz
-/er/menu/quicklaunch-custom.menu
 /KIWI/
 /image/
+
+# publish file
+erpxe-nightly.tar.gz
+
+
