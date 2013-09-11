@@ -1,11 +1,12 @@
 Release notes
 =============
 
-1. er.remap renamed to repxe.remap. 
-   service should be updated according to your system.
-   backward compatibility sylinks left for one release.
+1. the file 'er.remap' renamed to 'erpxe.remap'.
+   your system need to be updated to use the new remap file.
+   for backward compatibility we created a symlinks to 'er.remap'.
+   symlink will be removed in the next release.
 3. syslinux/roms moved to boot/isolinux.
    memdisk left for backward compatibility with some plugins.
-   will be removed in the next release.
+   symlink will be removed in the next release.
    
 for more details read the CHANGELOG
