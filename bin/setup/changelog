@@ -1,0 +1,9 @@
+ERPXE Configuration script
+==========================
+
+v0.2
+Backup original configuration files to .erpxe
+Fixed y/n questions
+
+v0.1
+This is the initial release for CentOS 6 only.

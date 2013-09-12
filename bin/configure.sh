@@ -9,8 +9,7 @@ cat setup/notice.txt
 # Ask to continue after notice
 echo "Do you want to continue ERPXE DHCP server configuration ? [y/N]"
 read AGREE
-if [ "$AGREE" != "y" ] || [ "$AGREE" != "Y" ]
-then
+if [ "$AGREE" != "y" -a "$AGREE" != "Y" ] ; then
     exit
 fi
 
@@ -22,9 +21,13 @@ read DHCP
 yum install -y dhcp httpd nfs-utils samba xinetd tftp wget tar gzip
 
 # Copy configuration files to appropriate locations
+# Backup original files to .erpxe
+cp /etc/exports /etc/exports.erpxe
 cat setup/erpxe-exports > /etc/exports
 cat setup/erpxe-httpd.conf > /etc/httpd/conf.d/erpxe.conf
+cp /etc/samba/smb.conf /etc/samba/smb.conf.erpxe
 cat setup/erpxe-smb.conf > /etc/samba/smb.conf
+cp /etc/xinetd.d/tftp /etc/xinetd.d/tftp.erpxe
 cat setup/erpxe-tftp > /etc/xinetd.d/tftp
 
 # Restart services
@@ -41,14 +44,12 @@ chkconfig tftp on
 chkconfig xinetd on
 
 # If DHCP is enabled then create the conf and configure the service
-if [ "$DHCP" == "y" ] || [ "$DHCP" == "Y" ]
-then
+if [ "$DHCP" == "y" -o "$DHCP" == "Y" ] ; then
     # get IP address
     echo ""
     echo "Please input your server IP address : [10.0.0.1]"
     read IPAddress
-    if [ -z $IPAddress ] ;
-    then
+    if [ -z $IPAddress ] ; then
 	IPAddress="10.0.0.1"
     fi
     # Replace Server IP in dhcpd.conf
