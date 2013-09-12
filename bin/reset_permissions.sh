@@ -18,7 +18,7 @@ function resetPermissions() {
 
 path="/tftpboot/";
 echo "Reseting $path permissions.";
-read -r -p "Are you sure? [Y/n] " response
+read -r -p "Are you sure? [y/N] " response
 case $response in
     [yY][eE][sS]|[yY]) 
         resetPermissions;
