@@ -20,14 +20,15 @@ read DHCP
 # Install packages
 yum install -y dhcp httpd nfs-utils samba xinetd tftp wget tar gzip
 
-# Copy configuration files to appropriate locations
 # Backup original files to .erpxe
 cp /etc/exports /etc/exports.erpxe
+cp /etc/samba/smb.conf /etc/samba/smb.conf.erpxe
+cp /etc/xinetd.d/tftp /etc/xinetd.d/tftp.erpxe
+
+# Copy configuration files to appropriate locations
 cat setup/erpxe-exports > /etc/exports
 cat setup/erpxe-httpd.conf > /etc/httpd/conf.d/erpxe.conf
-cp /etc/samba/smb.conf /etc/samba/smb.conf.erpxe
 cat setup/erpxe-smb.conf > /etc/samba/smb.conf
-cp /etc/xinetd.d/tftp /etc/xinetd.d/tftp.erpxe
 cat setup/erpxe-tftp > /etc/xinetd.d/tftp
 
 # Restart services
