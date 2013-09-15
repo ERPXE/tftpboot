@@ -25,6 +25,6 @@ case $response in
         echo "Done."
         ;;
     *)
-        echo "Aborting."
+        echo "User aborted."
         ;;
 esac
