@@ -18,7 +18,8 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 * And many other uses that will be available in the future...
 
 ### Known Issues
-Post issues to our GitHub page or join the mailing list: erpxe@librelist.com.
+Post issues to our [GitHub page][GITHUBISSUES] 
+or join the mailing list: erpxe@librelist.com.
 
 
 #### VirtualBox
@@ -50,6 +51,7 @@ by [RaveMaker][RaveMaker] & [ET][ET].
 [ERPXE.ORG]: http://erpxe.org/
 [ERPXE.NET]: http://erpxe.net/
 [GITHUB]: https://github.com/ERPXE
+[GITHUBISSUES]: https://github.com/ERPXE/tftpboot/issues
 [SF]: https://sourceforge.net/projects/erpxe/
 [FACEBOOK]: http://www.facebook.com/erpxe
 [GOOGLEPLUS]: https://plus.google.com/110564784966828303213/about
