@@ -18,6 +18,8 @@ In our vision, we see ERPXE in every small-large scale Enterprise used for:
 * And many other uses that will be available in the future...
 
 ### Known Issues
+Post issues to our GitHub page or join the mailing list: erpxe@librelist.com.
+
 
 #### VirtualBox
 * VirtualBox need to be upgraded to latest version (4.2.10+ tested) for ERPXE 1.1.
