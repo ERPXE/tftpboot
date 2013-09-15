@@ -1,0 +1,13 @@
+
+
+ERPXE Configuration script
+==========================
+
+v0.2
+This script is the initial release for CentOS 6 only.
+Additional Operation systems like Debian/Ubuntu will be added in future releases.
+
+The script assumes a clean CentOS 6 installation!
+
+!!!CONTINUE WITH EXTREME CAUTION!!!
+
