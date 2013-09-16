@@ -6,7 +6,7 @@ Release notes
    for backward compatibility we created a symlinks to 'er.remap'.
    symlink will be removed in the next release.
 3. syslinux/roms moved to boot/isolinux.
-   memdisk left for backward compatibility with some plugins.
+   memdisk symlink for backward compatibility with some plugins,
    symlink will be removed in the next release.
-   
+
 for more details read the CHANGELOG
