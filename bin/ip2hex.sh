@@ -7,6 +7,7 @@
 # as Syslinux searching for this file before calling default.
 # c0a800 (192.168.0.*) / 0a0000 (10.0.0.*) supplied by ERPXE as default
 # links supplied by default for 192.168.*.* / 192.*.*.* and 10.0.*.* / 10.*.*.* also.
+# Tested on: CentOS 6.4
 
 # TODO
 # 1. Check for valid input.
@@ -35,3 +36,4 @@ else
         esac
     done 
 fi
+

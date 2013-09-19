@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Tested on: CentOS 6.4
+
 # Clear Screen
 clear
 

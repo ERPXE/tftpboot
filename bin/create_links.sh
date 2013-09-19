@@ -56,4 +56,4 @@ ln_pxe C0A80
 ln_pxe C0A800
 
 echo Done.
-echo You can use sh create_links.sh --clear to remove all symlinks
+echo You can use sh create_links.sh --clear to remove all symlinks# Tested on: CentOS 6.4

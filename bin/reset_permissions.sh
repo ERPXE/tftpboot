@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Fix permissions on entire /tftpboot/ folder.
+# Tested on: CentOS 6.4
 
 FOLDER=/tftpboot
 
@@ -28,3 +29,4 @@ case $response in
         echo "User aborted."
         ;;
 esac
+

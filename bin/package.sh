@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Tested on: CentOS 6.4
+
 cd ..
 
 FILE="PREPACK"
@@ -18,5 +20,6 @@ case $response in
         echo "I am waiting till you done.";
         ;;
 esac
+
 
 
