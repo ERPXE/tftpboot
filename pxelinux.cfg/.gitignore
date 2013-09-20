@@ -4,4 +4,4 @@
 # But not these files...
 !.gitignore
 !.gitattributes
-!boot.txt
+!*.txt
