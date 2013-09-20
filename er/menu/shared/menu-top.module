@@ -1,3 +1,0 @@
-LABEL RETURNMAINMENU
-MENU LABEL ^Return to Main Menu
-MENU GOTO .top

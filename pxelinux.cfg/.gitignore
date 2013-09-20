@@ -1,2 +1,7 @@
-0A*
-C0*
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.gitattributes
+!boot.txt

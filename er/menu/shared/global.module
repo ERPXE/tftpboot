@@ -1,5 +1,0 @@
-# Functional Keys (F1-F12) Section
-MENU INCLUDE er/menu/shared/fn-k.module
-
-# Config Module Include
-MENU INCLUDE er/config/erpxe.conf

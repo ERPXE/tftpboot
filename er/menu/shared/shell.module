@@ -1,7 +1,0 @@
-# Reboot
-LABEL QUITCOMMAND
-MENU LABEL ^Boot To Syslinux Command
-MENU QUIT
-TEXT HELP
-                Quit to command prompt (syslinux command).
-ENDTEXT

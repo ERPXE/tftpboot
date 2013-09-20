@@ -1,7 +1,0 @@
-# Reboot
-LABEL REBOOT
-MENU LABEL ^Reboot
-KERNEL boot/isolinux/reboot.c32
-TEXT HELP
-                Reboot local system.
-ENDTEXT
