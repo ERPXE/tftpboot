@@ -1,4 +1,4 @@
-v(unknown)
+v1.2
 ==========
 This version contains mostly improvement to performance and shorter boot time.
 
@@ -13,6 +13,7 @@ This version contains mostly improvement to performance and shorter boot time.
     - resetPermission.sh script added - for resetting permission on entire /tftpboot/ folder by default
 * NTPASSWD updated to 110511
 * Menu Begin Moved into .menu file
+* Help files updated F1-F4
 
 v1.1
 ====

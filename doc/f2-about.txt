@@ -1,17 +1,19 @@
-F2 HELP System for PXE-MENU!
-
-
-
-
-
-                    ERPXE Menu Created by 
-
-                    ET & RAVEMAKER in 2007-2013
 
 
 
 
 
 
+                F2 - ERPXE About
+                ================
 
-                    Based on SYSLINUX
+                ERPXE project simplifies the process of
+                installing and customizing a Multi-Boot
+                PXE server with Over 100 different plugins
+                available for download including:
+
+                Windows PE , Hirens Boot CD, Fedora,
+                Symantec Ghost, FOG, Ubuntu, Debian,
+                CentOS, openSUSE, Gentoo, RIP Linux,
+                Slackware, Backtrack, PartedMagic
+                and the list just goes on...

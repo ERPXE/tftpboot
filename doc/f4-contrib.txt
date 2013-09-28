@@ -1,19 +1,18 @@
-F4 HELP System for PXE-MENU!
 
 
 
 
 
-                    Project Founders:
-                    -----------------
-                    Adam Mallul (RaveMaker)
-                    Etay Cohen-Solal (ET)
 
-                    feel free to contact us at our web site:
-                    www.erpxe.com
+                F4 - ERPXE Team
+                ===============
 
-                    or send us a message to:
-                    support@erpxe.com
+                Project Founders:
+                06- Adam Mallul (RaveMaker)07
+                06- Etay Cohen-Solal (ET)07
 
+                feel free to contact us at our web site:
+                04http://erpxe.com07
 
-                                             - ERPXE Team -
+                or send us a message to:
+                04support@erpxe.com07

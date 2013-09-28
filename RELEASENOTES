@@ -5,7 +5,7 @@ Release notes
    your system need to be updated to use the new remap file.
    for backward compatibility we created a symlinks to 'er.remap'.
    symlink will be removed in the next release.
-3. syslinux/roms moved to boot/isolinux.
+3. syslinux/ moved to boot/isolinux.
    memdisk symlink for backward compatibility with some plugins,
    symlink will be removed in the next release.
 

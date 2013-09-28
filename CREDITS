@@ -2,20 +2,19 @@
 	contributed to the ERPXE project.  It is sorted by name and
 	formatted to allow easy grepping and beautification by
 	scripts.  The fields are: name (N), email (E), web-address
-	(W), PGP key ID and fingerprint (P), description (D), and
-	snail-mail address (S).
+	(W), description (D), and snail-mail address (S).
 	Thanks,
 
 			ERPXE Team
-----------
+			----------
 
-N: Etay Cohen-Solal
-W: http://www.etcs.me
+N: Adam Mallul (RaveMaker)
+W: http://ravemaker.net
 D: Co-Founder of ERPXE and maintainer
 S: Israel
 
-N: Adam Mallul
-W: http://ravemaker.net
+N: Etay Cohen-Solal (ET)
+W: http://www.etcs.me
 D: Co-Founder of ERPXE and maintainer
 S: Israel
 
