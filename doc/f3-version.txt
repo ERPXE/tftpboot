@@ -7,7 +7,7 @@
                 F3 - ERPXE Release info
                 =======================
 
-                ERPXE release version 061.2.007
+                ERPXE release version 061.207
 
                 Last compilation created by:
                 06- RaveMaker -07

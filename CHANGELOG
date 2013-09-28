@@ -6,14 +6,16 @@ This version contains mostly improvement to performance and shorter boot time.
 * 3 links created at root (syslinux tries there first)
 * syslinux.cfg - created several files which loads before default in most subnets.
 * er.remap updated: 
-    - added folder exlusions - to speed process, and disable remap where not needed
-    - renamed to erpxe.remap (er.remap left as link and will be depreceated soon).
+    - added folder exclusions - to speed process, and disable remap where not needed
+    - renamed to erpxe.remap (er.remap left as link and will be deprecated soon).
 * Added /bin folder - for scripts:
     - ip2hex.sh script created - for generating links in /syslinux.cfg/ for ip/subnet(s)
     - resetPermission.sh script added - for resetting permission on entire /tftpboot/ folder by default
 * NTPASSWD updated to 110511
 * Menu Begin Moved into .menu file
 * Help files updated F1-F4
+* PXEKNIFE updated to the new ERPXE file system
+* XBMCbuntu plugins added
 
 v1.1
 ====
