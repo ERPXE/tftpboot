@@ -1,3 +1,5 @@
+#!/bin/bash
+
 IPAddress=$1
 if [ -z $IPAddress ] ; then
   echo ""
