@@ -37,6 +37,9 @@ MENU INCLUDE er/plugins/dban/dban.menu
 # ------====> DEFT Linux <====------
 MENU INCLUDE er/plugins/deft/deft.menu
 
+# ------====> DEFT Zero Linux <====------
+MENU INCLUDE er/plugins/deftz/deftz.menu
+
 # ------====> FCCU Linux <====------
 MENU INCLUDE er/plugins/fccu/fccu.menu
 
