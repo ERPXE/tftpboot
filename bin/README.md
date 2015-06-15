@@ -7,4 +7,5 @@ ERPXE Tools - Installation & Configure
 * **create_links.sh** - Simple script to enhance the performance of ERPXE.
 * **ip2hex.sh** - Helper to enhance your subnet PXE performance
 * **package.sh** - Package ERPXE using git.
+* **replace_nfsroot_ip** - Updates nfsroot ip for all plugins
 * **reset_permmisions.sh** - Reset all ERPXE folder and files permission to default.
