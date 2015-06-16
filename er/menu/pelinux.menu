@@ -79,6 +79,9 @@ MENU INCLUDE er/plugins/mythbuntu/mythbuntu.menu
 # ------====> NetRunner <====------
 MENU INCLUDE er/plugins/netrunner/netrunner.menu
 
+# ------====> OpenELEC <====------
+MENU INCLUDE er/plugins/openelec/openelec.menu
+
 # ------====> OpenGEU <====------
 MENU INCLUDE er/plugins/opengeu/opengeu.menu
 
